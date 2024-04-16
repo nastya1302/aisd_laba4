@@ -7,6 +7,7 @@ EXPORTS
 	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
 	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
 	??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z
+	??0BinaryTree@nestea@@QEAA@AEBV01@@Z
 	??0BinaryTree@nestea@@QEAA@XZ
 	??0Node@nestea@@QEAA@H@Z
 	??0Node@nestea@@QEAA@XZ
@@ -24,17 +25,25 @@ EXPORTS
 	??1invalid_argument@std@@UEAA@XZ
 	??1logic_error@std@@UEAA@XZ
 	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??4BinaryTree@nestea@@QEAAAEAV01@AEBV01@@Z
 	??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEBA_NXZ
 	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
 	?__empty_global_delete@@YAXPEAX@Z
 	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z
 	?__empty_global_delete@@YAXPEAX_K@Z
 	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z
+	?contains@BinaryTree@nestea@@QEAA_NH@Z
+	?copy_tree@BinaryTree@nestea@@AEAAPEAUNode@2@PEAU32@@Z
 	?delete_tree@BinaryTree@nestea@@AEAAXPEAUNode@2@@Z
 	?eof@?$_Narrow_char_traits@DH@std@@SAHXZ
 	?eq_int_type@?$_Narrow_char_traits@DH@std@@SA_NAEBH0@Z
+	?erase@BinaryTree@nestea@@QEAA_NH@Z
+	?erase_node@BinaryTree@nestea@@AEAAPEAUNode@2@AEAPEAU32@H@Z
+	?find_node@BinaryTree@nestea@@AEAAPEAUNode@2@PEAU32@H@Z
+	?get_root@BinaryTree@nestea@@QEAAPEAUNode@2@XZ
 	?insert@BinaryTree@nestea@@QEAA_NH@Z
 	?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z
+	?min_node@BinaryTree@nestea@@AEAAPEAUNode@2@PEAU32@@Z
 	?print@BinaryTree@nestea@@QEAAXXZ
 	?print_tree@BinaryTree@nestea@@AEAAXPEBUNode@2@@Z
 	?what@exception@std@@UEBAPEBDXZ
