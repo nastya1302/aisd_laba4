@@ -1,5 +1,5 @@
 C:/Users/nasty/source/repos/aisd_laba4/out/build/x64-Debug/CMakeFiles/BinaryTree.dir
-C:/Users/nasty/source/repos/aisd_laba4/out/build/x64-Debug/CMakeFiles/BinaryTree_tests.dir
+C:/Users/nasty/source/repos/aisd_laba4/out/build/x64-Debug/CMakeFiles/tests.dir
 C:/Users/nasty/source/repos/aisd_laba4/out/build/x64-Debug/CMakeFiles/task.dir
 C:/Users/nasty/source/repos/aisd_laba4/out/build/x64-Debug/CMakeFiles/experiment.dir
 C:/Users/nasty/source/repos/aisd_laba4/out/build/x64-Debug/CMakeFiles/edit_cache.dir

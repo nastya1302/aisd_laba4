@@ -22,7 +22,7 @@
 					[
 						0,
 						1,
-						2,
+						6,
 						7
 					]
 				},
@@ -49,7 +49,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-d695d7e5b701c0aaaa0e.json",
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-a35beca829e85c6b523a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -59,14 +59,14 @@
 					"source" : "out/build/x64-Debug/_deps/googletest-src/googlemock",
 					"targetIndexes" : 
 					[
-						3,
-						4
+						2,
+						3
 					]
 				},
 				{
 					"build" : "_deps/googletest-build/googletest",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-57d706a31a5a1c0dc241.json",
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-8ba21fb0037e90a98b69.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -76,8 +76,8 @@
 					"source" : "out/build/x64-Debug/_deps/googletest-src/googletest",
 					"targetIndexes" : 
 					[
-						5,
-						6
+						4,
+						5
 					]
 				}
 			],
@@ -98,7 +98,7 @@
 					[
 						0,
 						1,
-						2,
+						6,
 						7
 					]
 				},
@@ -127,8 +127,8 @@
 					"parentIndex" : 1,
 					"targetIndexes" : 
 					[
-						3,
-						4
+						2,
+						3
 					]
 				},
 				{
@@ -140,8 +140,8 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						5,
-						6
+						4,
+						5
 					]
 				}
 			],
@@ -152,13 +152,6 @@
 					"id" : "BinaryTree::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-BinaryTree-Debug-f9f5f404d97cdb360b5f.json",
 					"name" : "BinaryTree",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "BinaryTree_tests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BinaryTree_tests-Debug-07c43ef1cf071f0fb4d9.json",
-					"name" : "BinaryTree_tests",
 					"projectIndex" : 0
 				},
 				{
@@ -201,6 +194,13 @@
 					"id" : "task::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-task-Debug-e138a1d5be7e15237eb0.json",
 					"name" : "task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-Debug-87a10f9dd5c30edd79ec.json",
+					"name" : "tests",
 					"projectIndex" : 0
 				}
 			]

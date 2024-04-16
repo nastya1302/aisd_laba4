@@ -22,9 +22,9 @@ FetchContent_Declare(googletest URL https://github.com/google/googletest/archive
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
-add_executable(BinaryTree_tests "tests/BinaryTree_tests.cc")
+add_executable(tests "tests/BinaryTree_tests.cc")
 add_executable(task "src/BinaryTree_task.cc")
 add_executable(experiment "src/BinaryTree_experiment.cc")
-target_link_libraries(BinaryTree_tests BinaryTree GTest::gtest_main)
+target_link_libraries(tests BinaryTree GTest::gtest_main)
 target_link_libraries(task BinaryTree)
 target_link_libraries(experiment BinaryTree)

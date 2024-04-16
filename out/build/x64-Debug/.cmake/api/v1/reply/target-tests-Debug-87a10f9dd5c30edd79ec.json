@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "BinaryTree_tests.exe"
+			"path" : "tests.exe"
 		},
 		{
-			"path" : "BinaryTree_tests.pdb"
+			"path" : "tests.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -105,7 +105,7 @@
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		}
 	],
-	"id" : "BinaryTree_tests::@6890427a1f51a3e7e1df",
+	"id" : "tests::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -140,8 +140,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "BinaryTree_tests",
-	"nameOnDisk" : "BinaryTree_tests.exe",
+	"name" : "tests",
+	"nameOnDisk" : "tests.exe",
 	"paths" : 
 	{
 		"build" : ".",

@@ -51,7 +51,7 @@ bool BinaryTree::insert(int key){
 		Node* current = root;
 		while (current) {
 			if (current->value == key) {
-				cout << "BinaryTree::An element with this value already exists.";
+				//cout << "BinaryTree::An element with this value already exists.";
 				return false;
 			}
 			else if (current->value < key) {
@@ -127,9 +127,11 @@ Node* BinaryTree::get_root(){
 }
 
 void BinaryTree::delete_tree(Node* _root) {
-	if (_root->left) 
+	if (!_root) 
+		return;
+	if(_root->left)
 		delete_tree(_root->left);
-	if (_root->right) 
+	if(_root->right)
 		delete_tree(_root->right);
 	delete _root;
 	_root = nullptr;

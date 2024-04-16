@@ -119,8 +119,9 @@ TEST(BinaryTree_tests, erase2) {
 	_bintree.insert(1);
 	_bintree.insert(3);
 	_bintree.insert(6);
-	bool check = _bintree.erase(5);
-	_bintree.print();
+	bool check = _bintree.erase(7);
+	//_bintree.print();
+	cout << _bintree.get_root()->value;
 	cout << "\n";
 	EXPECT_TRUE(check);
 }

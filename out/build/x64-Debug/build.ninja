@@ -80,41 +80,41 @@ build BinaryTree.dll BinaryTree.lib: CXX_SHARED_LIBRARY_LINKER__BinaryTree_Debug
   TARGET_PDB = BinaryTree.pdb
 
 # =============================================================================
-# Object build statements for EXECUTABLE target BinaryTree_tests
+# Object build statements for EXECUTABLE target tests
 
 
 #############################################
-# Order-only phony target for BinaryTree_tests
+# Order-only phony target for tests
 
-build cmake_object_order_depends_target_BinaryTree_tests: phony || cmake_object_order_depends_target_BinaryTree cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+build cmake_object_order_depends_target_tests: phony || cmake_object_order_depends_target_BinaryTree cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build CMakeFiles\BinaryTree_tests.dir\tests\BinaryTree_tests.cc.obj: CXX_COMPILER__BinaryTree_tests_unscanned_Debug C$:\Users\nasty\source\repos\aisd_laba4\tests\BinaryTree_tests.cc || cmake_object_order_depends_target_BinaryTree_tests
+build CMakeFiles\tests.dir\tests\BinaryTree_tests.cc.obj: CXX_COMPILER__tests_unscanned_Debug C$:\Users\nasty\source\repos\aisd_laba4\tests\BinaryTree_tests.cc || cmake_object_order_depends_target_tests
   FLAGS = /DWIN32 /D_WINDOWS /W4 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest
   INCLUDES = -IC:\Users\nasty\source\repos\aisd_laba4\include -external:IC:\Users\nasty\source\repos\aisd_laba4\out\build\x64-Debug\_deps\googletest-src\googletest\include -external:IC:\Users\nasty\source\repos\aisd_laba4\out\build\x64-Debug\_deps\googletest-src\googletest -external:W0
-  OBJECT_DIR = CMakeFiles\BinaryTree_tests.dir
-  OBJECT_FILE_DIR = CMakeFiles\BinaryTree_tests.dir\tests
-  TARGET_COMPILE_PDB = CMakeFiles\BinaryTree_tests.dir\
-  TARGET_PDB = BinaryTree_tests.pdb
+  OBJECT_DIR = CMakeFiles\tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\tests.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\tests.dir\
+  TARGET_PDB = tests.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target BinaryTree_tests
+# Link build statements for EXECUTABLE target tests
 
 
 #############################################
-# Link the executable BinaryTree_tests.exe
+# Link the executable tests.exe
 
-build BinaryTree_tests.exe: CXX_EXECUTABLE_LINKER__BinaryTree_tests_Debug CMakeFiles\BinaryTree_tests.dir\tests\BinaryTree_tests.cc.obj | BinaryTree.lib lib\gtest_main.lib lib\gtest.lib || BinaryTree.dll lib\gtest.lib lib\gtest_main.lib
+build tests.exe: CXX_EXECUTABLE_LINKER__tests_Debug CMakeFiles\tests.dir\tests\BinaryTree_tests.cc.obj | BinaryTree.lib lib\gtest_main.lib lib\gtest.lib || BinaryTree.dll lib\gtest.lib lib\gtest_main.lib
   FLAGS = /DWIN32 /D_WINDOWS /W4 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = BinaryTree.lib  lib\gtest_main.lib  lib\gtest.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\BinaryTree_tests.dir
+  OBJECT_DIR = CMakeFiles\tests.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\BinaryTree_tests.dir\
-  TARGET_FILE = BinaryTree_tests.exe
-  TARGET_IMPLIB = BinaryTree_tests.lib
-  TARGET_PDB = BinaryTree_tests.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\tests.dir\
+  TARGET_FILE = tests.exe
+  TARGET_IMPLIB = tests.lib
+  TARGET_PDB = tests.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target task
@@ -586,8 +586,6 @@ build _deps\googletest-build\googletest\install\local: phony _deps\googletest-bu
 
 build BinaryTree: phony BinaryTree.dll
 
-build BinaryTree_tests: phony BinaryTree_tests.exe
-
 build experiment: phony experiment.exe
 
 build gmock: phony lib\gmock.lib
@@ -608,6 +606,8 @@ build gtest_main.lib: phony lib\gtest_main.lib
 
 build task: phony task.exe
 
+build tests: phony tests.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -616,7 +616,7 @@ build task: phony task.exe
 #############################################
 # Folder: C:/Users/nasty/source/repos/aisd_laba4/out/build/x64-Debug
 
-build all: phony BinaryTree.dll BinaryTree_tests.exe task.exe experiment.exe _deps\googletest-build\all
+build all: phony BinaryTree.dll tests.exe task.exe experiment.exe _deps\googletest-build\all
 
 # =============================================================================
 
