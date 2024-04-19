@@ -40,7 +40,6 @@ EXPORTS
 	?erase@BinaryTree@nestea@@QEAA_NH@Z
 	?erase_node@BinaryTree@nestea@@AEAAPEAUNode@2@AEAPEAU32@H@Z
 	?find_node@BinaryTree@nestea@@AEAAPEAUNode@2@PEAU32@H@Z
-	?get_root@BinaryTree@nestea@@QEAAPEAUNode@2@XZ
 	?insert@BinaryTree@nestea@@QEAA_NH@Z
 	?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z
 	?min_node@BinaryTree@nestea@@AEAAPEAUNode@2@PEAU32@@Z

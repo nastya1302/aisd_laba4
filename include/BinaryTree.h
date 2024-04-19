@@ -32,6 +32,5 @@ namespace nestea {
 		bool insert(int key);
 		bool contains(int key);
 		bool erase(int key);
-		Node* get_root();
 	};
 }

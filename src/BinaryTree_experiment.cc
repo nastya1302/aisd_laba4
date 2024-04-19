@@ -5,12 +5,6 @@
 using namespace std;
 using namespace nestea;
 
-int lcg() {
-    static size_t x = 0;
-    x = (1021 * x + 24631) % 116640;
-    return x;
-}
-
 int random_value(int from, int to, int seed) {
 	mt19937 gen(seed);
 	uniform_real_distribution<> segment(from, to);
@@ -147,14 +141,14 @@ int main() {
 //BinaryTree:: time to insert and erase for an item in 10000 items: 3.3e-05 seconds
 //BinaryTree:: time to insert and erase for an item in 100000 items : 4.4e-05 seconds
 
-//Vector::insertion time of 1000 items: 0.00646 seconds
-//Vector::insertion time of 10000 items : 0.06379 seconds
-//Vector::insertion time of 100000 items : 0.60281 seconds
+//Vector:: insertion time of 1000 items: 0.00646 seconds
+//Vector:: insertion time of 10000 items : 0.06379 seconds
+//Vector:: insertion time of 100000 items : 0.60281 seconds
 
-//Vector::time to search for an item in 1000 items : 6e-06 seconds
-//Vector::time to search for an item in 10000 items : 1.7e-05 seconds
-//Vector::time to search for an item in 100000 items : 2.1e-05 seconds
+//Vector:: time to search for an item in 1000 items : 6e-06 seconds
+//Vector:: time to search for an item in 10000 items : 1.7e-05 seconds
+//Vector:: time to search for an item in 100000 items : 2.1e-05 seconds
 
-//Vector::time to insert and erase for an item in 1000 items : 1e-05 seconds
-//Vector::time to insert and erase for an item in 10000 items : 4.9e-05 seconds
-//Vector::time to insert and erase for an item in 100000 items : 0.000286 seconds
+//Vector:: time to insert and erase for an item in 1000 items : 1e-05 seconds
+//Vector:: time to insert and erase for an item in 10000 items : 4.9e-05 seconds
+//Vector:: time to insert and erase for an item in 100000 items : 0.000286 seconds

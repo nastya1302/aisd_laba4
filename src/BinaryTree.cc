@@ -95,7 +95,7 @@ Node* BinaryTree::erase_node(Node*& _root, int key){
 	else if (_root->value < key)
 		return erase_node(_root->right, key);
 	else if (_root->value == key) {
-		if (!root->left) {
+		if (!_root->left) {
 			Node* current = _root->right;
 			delete _root;
 			_root = current;
@@ -120,10 +120,6 @@ Node* BinaryTree::min_node(Node* _root) {
 	while (_root->left)
 		_root = _root->left;
 	return _root;
-}
-
-Node* BinaryTree::get_root(){
-	return root;
 }
 
 void BinaryTree::delete_tree(Node* _root) {
